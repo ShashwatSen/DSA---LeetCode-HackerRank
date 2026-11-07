@@ -1,8 +1,6 @@
 class Solution:
     def addDigits(self, num: int) -> int:
-        if num == 0:
-            return 0
-        return 1 + (num - 1) % 9
+        return 0 if num == 0 else 1 + (num - 1) % 9
 
 # Synced seamlessly with LeetHub Pro
 # Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
